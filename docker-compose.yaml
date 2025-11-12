@@ -6,7 +6,7 @@ services:
       - "1100:3000"      
     restart: always
     deploy:
-    resources:
-      limits:
-        cpus: "0.5"
-        memory: 128M
+      resources:
+        limits:
+          cpus: "0.5"
+          memory: 128M
