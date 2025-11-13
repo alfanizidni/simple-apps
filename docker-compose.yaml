@@ -1,6 +1,7 @@
 services:
   simple-apps:
-    container_name: ct-simpleapps
+    container_name: ct-simpleapps-prod
+    image: alfanizidni/img-simpleapps
     build: ./app
     ports:
       - "10000:3000"      
